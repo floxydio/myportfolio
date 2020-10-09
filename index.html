@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ICON -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dio Rovelino Portfolio</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Dio Rovelino</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">HOME</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skill</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!-- Home -->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <h1 class="home__title"><span>Hello</span></h1>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-link"
+              ><i class="bx bx-up-arrow-alt"></i>Scroll down</a
+            >
+          </div>
+
+          <img src="image/hey.svg" class="home__img" />
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="image/me.jpg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Dio Rovelino</h2>
+            <span class="about__profession">Front End Developer</span>
+            <p class="about__text">
+              Hai, Perkenalkan Nama saya Dio Okta Rovelino <br>
+              Saya berumur 19 Tahun, Saya adalah Mahasiswa di Universitas Bina Sarana Informatika (Semester 3) <br>
+              Saya hobi mempelajari ilmu baru terutama pemrograman <br>
+              Memang pengalaman pekerjaan saya pada Web Developer ini masih belum ada tapi kegigihan saya dalam mempelajari hal baru adalah tantangan buat saya.
+              <br />
+            </p>
+
+            <div class="about__social">
+              <a href="https://www.linkedin.com/in/dio-rovelino-76a204189/" class="about__social-icon"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a href="https://github.com/floxydio" class="about__social-icon"
+                ><i class="bx bxl-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skill -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div class="skills__box">
+            <h3 class="skills__subtitle">Front End</h3>
+            <span class="skills__name">HTML</span>
+            <div id="progressbar">
+              <div style="width: 85%"></div>
+            </div>
+            <span class="skills__name">CSS</span>
+            <div id="progressbar">
+              <div style="width: 70%"></div>
+            </div>
+            <span class="skills__name">Javascript</span>
+            <div id="progressbar">
+              <div style="width: 60%"></div>
+            </div>
+            <h3 class="skills__subtitle">Back End</h3>
+            <span class="skills__name">PHP</span>
+            <div id="progressbar">
+              <div style="width: 55%"></div>
+            </div> 
+          </div>
+          <div class="skills__box"> 
+            <h3 class="skills__subtitle">Framework</h3>
+            <span class="skills__name">Vue</span>
+            <div id="progressbar">
+              <div style="width: 40%"></div>
+            </div>
+            <span class="skills__name">Bootstrap 4</span>
+            <div id="progressbar">
+              <div style="width: 65%"></div>
+            </div>
+            <span class="skills__name">CodeIgniter</span>
+            <div id="progressbar">
+              <div style="width: 25%"></div>
+            </div>
+            <div class="skills__box"> 
+              <h3 class="skills__subtitle">Design</h3>
+              <span class="skills__name">Figma</span>
+              <div id="progressbar">
+                <div style="width: 40%"></div>
+              </div>
+              <span class="skills__name">Photoshop</span>
+              <div id="progressbar">
+                <div style="width: 55%"></div>
+              </div>
+          </div>  
+      </section>
+
+      <!--===== PORTFOLIO =====-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="portfolio__container bd-grid">
+          <div class="portfolio__img">
+            <img src="image/cc/castlecake1.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a href="portfolio/castlecake.html" class="portfolio__link-name">View details 
+              </a>
+            </div>
+            <p style="text-align: center; margin-top:30px;">Castle Cake ( Kerja Kelompok )</p>
+          </div>
+          <div class="portfolio__img">
+            <img src="image/ecommerce/ecommerce1.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a href="portfolio/ecommerce.html" class="portfolio__link-name">View details</a>
+            </div>
+            <p style="text-align: center;">Latihan e-Commerce ( Bootstrap 4 )</p>
+          </div>
+          <div class="portfolio__img">
+            <img src="image/rt/rt1.jpg" alt="" />
+
+            <div class="portfolio__link">
+              <a href="portfolio/realtime.html" class="portfolio__link-name">View details</a>
+            </div>
+            <p style="text-align: center;margin-top:60px;">Latihan Realtime Chat ( VueJS + Socket.io )</p>
+          </div>
+          <div class="portfolio__img">
+            <img src="image/corona/background.jpg" alt="" width="150" height="150"/>
+
+            <div class="portfolio__link">
+              <a href="portfolio/corona.html" class="portfolio__link-name">View details</a>
+            </div>
+            <p style="text-align: center;margin-top:60px;">Latihan Figma ( Corona Tracker )</p>
+          </div>
+        </div>
+        <p style="text-align: center; color:black; font-size: 20px; margin-top: 2rem;"> My Resume : <br> <br>
+          <button><a href="https://drive.google.com/file/d/1TKDtrtuO9HKp-alnTKdw7M5wNDD-cYpr/view?usp=sharing" style="color:black;" target="_blank">Click Here</a></button>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <div class="contact__info">
+            <h3 class="contact__subtitle">EMAIL</h3>
+            <span class="contact__text">diooktar@gmail.com</span>
+
+            <h3 class="contact__subtitle">PHONE</h3>
+            <span class="contact__text">+62 897-1662-152</span>
+
+          </div>
+
+          <form action="mailto:diooktar@gmail.com" class="contact__form" enctype="text/plain">
+            <div class="contact__inputs">
+              <input type="text" placeholder="Name" class="contact__input" />
+              <input type="mail" placeholder="Email" class="contact__input" />
+            </div>
+
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+
+            <input type="submit" value="Kirim" class="contact__button" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <div class="footer__data">
+          <h2 class="footer__title">Dio Okta Rovelino</h2>
+          <p class="footer__text">
+            I'm Dio this is my portfolio website
+          </p>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">EXPLORE</h2>
+          <ul>
+            <li><a href="#home" class="footer__link">Home</a></li>
+            <li><a href="#about" class="footer__link">About</a></li>
+            <li><a href="#skills" class="footer__link">Skills</a></li>
+            <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+            <li><a href="#Contact" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">FOLLOW</h2>
+          <a href="https://mbasic.facebook.com/dio.rovelino" class="footer__social"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/io.floxy/" class="footer__social"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!-- Scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
